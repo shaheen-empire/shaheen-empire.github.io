@@ -6,51 +6,59 @@
     <title>Shaheen Empire | Global Software & Technology Enterprise</title>
     <style>
         :root {
-            --primary: #0f172a;
+            --primary: #090d16;
+            --secondary: #1e293b;
             --accent: #38bdf8;
-            --text: #334155;
-            --bg: #f8fafc;
+            --text: #cbd5e1;
+            --bg: #030712;
+            --card-bg: #0f172a;
         }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg);
             color: var(--text);
-            line-height: 1.6;
+            line-height: 1.7;
         }
         header {
-            background: var(--primary);
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: #ffffff;
-            padding: 3rem 1rem;
+            padding: 4rem 1rem;
             text-align: center;
+            border-bottom: 2px solid var(--accent);
         }
         header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            letter-spacing: 1px;
+            font-size: 3rem;
+            letter-spacing: 1.5px;
             color: #ffffff;
+            margin-bottom: 0.5rem;
         }
         header p {
             color: var(--accent);
-            font-size: 1.2rem;
-            margin-top: 0.5rem;
+            font-size: 1.3rem;
+            font-weight: 500;
         }
         .container {
-            max-width: 900px;
-            margin: 2rem auto;
+            max-width: 1000px;
+            margin: 3rem auto;
             padding: 0 1.5rem;
         }
         .card {
-            background: #ffffff;
-            padding: 2rem;
-            margin-bottom: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            background: var(--card-bg);
+            border: 1px solid #334155;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
         }
         .card h2 {
-            color: var(--primary);
-            margin-top: 0;
+            color: #ffffff;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
             border-bottom: 2px solid var(--accent);
             padding-bottom: 0.5rem;
         }
@@ -58,21 +66,26 @@
             padding-left: 20px;
         }
         ul li {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.8rem;
+            color: var(--text);
+        }
+        .contact-box {
+            background: #172554;
+            border: 1px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            color: #e0f2fe;
+            font-weight: 600;
         }
         footer {
             text-align: center;
-            padding: 1.5rem;
+            padding: 2rem;
             background: var(--primary);
-            color: #94a3b8;
-            font-size: 0.9rem;
-            margin-top: 3rem;
-        }
-        .contact-box {
-            background: #e0f2fe;
-            padding: 1rem;
-            border-left: 4px solid var(--accent);
-            font-weight: 500;
+            color: #64748b;
+            font-size: 0.95rem;
+            border-top: 1px solid #1e293b;
+            margin-top: 4rem;
         }
     </style>
 </head>
@@ -85,31 +98,31 @@
 
     <div class="container">
         <div class="card">
-            <h2>About Our Enterprise</h2>
-            <p><strong>Shaheen Empire</strong> is an independent, agile, digital-first software development enterprise operating globally. We specialize in building advanced mobile applications, cloud integrations, and next-generation digital platform architectures designed for modern digital ecosystems.</p>
+            <h2>Corporate Overview</h2>
+            <p><strong>Shaheen Empire</strong> is an independent, agile, digital-first software development enterprise operating on a global scale. We engineer advanced mobile applications, scalable cloud solutions, and robust digital platform architectures tailored for the modern technology ecosystem.</p>
         </div>
 
         <div class="card">
-            <h2>Core Competencies & Infrastructure</h2>
+            <h2>Core Technological Competencies</h2>
             <ul>
-                <li><strong>Mobile App Development:</strong> High-performance cross-platform applications deployed across international ecosystems.</li>
-                <li><strong>Cloud & Platform Integration:</strong> Scalable backend deployments and secure database management.</li>
-                <li><strong>Digital-First Operations:</strong> Fully decentralized, cloud-native administration and automated deployment pipelines.</li>
+                <li><strong>Mobile Ecosystem Development:</strong> Architecting and deploying high-performance cross-platform mobile applications.</li>
+                <li><strong>Cloud-Native Infrastructure:</strong> Designing secure backend platforms, automated pipelines, and decentralized database environments.</li>
+                <li><strong>Digital-First Operations:</strong> Operating entirely through global cloud management and secure administrative networks.</li>
             </ul>
         </div>
 
         <div class="card">
-            <h2>Corporate Verification & Contact</h2>
-            <p>As a digital-first technology entity, our administrative operations and global communications are officially managed through our corporate infrastructure.</p>
+            <h2>Official Corporate Verification & Contact</h2>
+            <p>As a certified digital-first technology entity, all official communications, administrative management, and global operations are securely channeled through our official corporate infrastructure.</p>
             <div class="contact-box">
-                Official Corporate Email: shaheenempire137@gmail.com<br>
-                Global Operations: Digital-First / Cloud Architecture
+                Corporate Contact Email: shaheenempire137@gmail.com<br>
+                Global Operational Model: Cloud-Native & Digital-First Enterprise
             </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2026 Shaheen Empire. All rights reserved. Globally Distributed Digital Enterprise.</p>
+        <p>&copy; 2026 Shaheen Empire. All rights reserved. Globally Distributed Digital Technology Enterprise.</p>
     </footer>
 
 </body>
